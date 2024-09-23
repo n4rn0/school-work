@@ -1,0 +1,8 @@
+num1 = int(input("Choose number 1: "))
+num2 = int(input("Choose number 2: "))
+if num1 > num2:
+    print("Your first number is larger than your second number")
+elif num2 > num1:
+    print("Your first number is smaller than your second number")
+elif num1 == num2:
+    print("Both your numbers are equal")
