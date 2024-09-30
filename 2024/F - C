@@ -1,1 +1,8 @@
-
+choice = input("Enter 1 for C and 2 for F")
+answer = 0
+tempC = 0
+tempF = 0
+if choice == "1":
+  tempC = temp = float(input("Enter temp in celcius"))
+  tempF = (tempC * 9/5)) + 32
+  print(tempF)
